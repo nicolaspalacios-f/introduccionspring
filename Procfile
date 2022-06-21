@@ -1,1 +1,1 @@
-web: java -cp "target/classes" edu.escuelaing.arsw.ASE.app.WebSiteController
+web: java -jar target/introduccionSpring-1.0-SNAPSHOT.jar

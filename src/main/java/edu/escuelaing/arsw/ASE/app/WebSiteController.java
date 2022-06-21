@@ -34,10 +34,4 @@ public class WebSiteController {
         return String.format("Hello %s!", name);
     }
 
-    private int getPort() {
-        if (System.getenv("PORT") != null) {
-            return Integer.parseInt(System.getenv("PORT"));
-        }
-        return 35000;
-    }
 }
