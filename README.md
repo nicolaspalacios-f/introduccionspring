@@ -1,8 +1,8 @@
-# Taller networking ARSW
+# Taller spring ARSW
 
 ## Nicolas Palacios
 
-## 18/06/2022
+## 22/06/2022
 
 ### En que consiste el proyecto?
 
@@ -32,17 +32,12 @@ POST:
 
 Picos y Famas:
 
-<img src= imagen\imagen5.png>
+<img src= imagen\imagen6.png>
 
 ### Diagrama de Clases
 
-<img src="imagen\imagen.png">  
+<img src="imagen\imagen5.png">  
  
- En el diagrama de clases vemos la clase httpServer, httpServer controller.
-
-httpServer es el funcionamiento del server y controller la que la invoca
-
-De igual manera vemos requestProcessor MultiHilosProcessor y ClienteMultiHilos, estos enfocados netamente en concurrencia.
 
 ### Documentacion
 
@@ -59,11 +54,10 @@ Para ver la documentacion, se debe realizar el comando mvn javadoc:javadoc, lueg
 | | | | | |\_**\_arsw  
 | | | | | | |\_**\_ASE  
 | | | | | | | |\_**\_app  
-| | | | | | | | |HttpServer.java  
-| | | | | | | | |HttpServerController.java  
-| | | | | | | | |ClienteMultiHilos.java  
-| | | | | | | | |MultiHilosProcessor.java  
-| | | | | | | | |RequestProcessor.java  
+| | | | | | | | |ControladorJuego.java  
+| | | | | | | | |Juego.java  
+| | | | | | | | |WebSiteController.java  
+
 | |\_\_**test  
 | | |\_**\_java  
 | | | |\_\_**edu  
