@@ -32,4 +32,5 @@ function comparacion() {
         }
     )
     document.getElementById("rta").prepend(container);
+    document.getElementById("numero").value = "";
 }
