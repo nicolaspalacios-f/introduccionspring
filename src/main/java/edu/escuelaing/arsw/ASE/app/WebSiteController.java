@@ -34,4 +34,15 @@ public class WebSiteController {
         return String.format("Hello %s!", name);
     }
 
+    @GetMapping("/start")
+    public String start() {
+        Juego juego = Juego.getInstance();
+        return juego.random();
+    }
+
+    @PostMapping("/comparacion")
+    public String comparacion(@RequestParam(value = "numerosUsuario", defaultValue = "0000") String numerosUsuario) {
+        Juego juego = Juego.getInstance();
+        return juego.validador(numerosUsuario);
+    }
 }
